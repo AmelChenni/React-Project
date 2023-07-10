@@ -1,0 +1,288 @@
+.footer{
+    font-size: 1pc;
+    clear: both;
+    width: 100%;
+    margin: 2em 0 0;
+    /* background-color: red; */
+    padding-bottom: 23em;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-align: center;
+    margin: auto;
+}
+.firstSection{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    color : black;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+
+}
+.firstSectionOne i{
+    font-size: 25px;
+    margin :18px;
+}
+.firstSectionOne i:first-of-type{
+   word-wrap: break-word;
+   width: 21%;
+   display: inline-block;
+   font-size: 14px;
+   line-height: 1.2;
+   font-family: Gotham5r,GothamMedium,Helvetica,Arial,sans-serif;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-style: normal;
+   text-align: left;
+
+}
+.firstSectionTwo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+
+
+}
+.firstSectionTwo p{
+    margin-top: 10px;
+    word-wrap: break-word;
+   width: 21%;
+   display: inline-block;
+   font-size: 14px;
+   line-height: 1.2;
+   font-family: Gotham5r,GothamMedium,Helvetica,Arial,sans-serif;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-style: normal;
+   text-align: left;
+
+
+}
+.firstSectionTwo span{
+    font-family: Gotham3r,GothamBook,Helvetica,Arial,sans-serif;
+    color: #000;
+    font-size: 13px !important;
+    line-height: 1.2em;
+    margin: 0 0 .5em;
+    word-wrap: break-word;
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+
+}
+.firstSectionTwo i{
+    font-size: 40px !important;
+}
+.firstSectionTwo button{
+    font-family: Gotham5r,GothamBook,Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #000;
+    font-size: .8em;
+    padding: 5px 10px;
+    text-align: left;
+    text-decoration: none!important;
+    margin: 10px;
+    border-radius: 10%;
+    margin:6px 40% 6px 0px;
+}
+.firstSectionTwo img{
+    max-width: 25%;
+}
+
+/* second */
+.scondSection{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.scondSection li {
+    list-style: none;
+    align-items: center;
+    height: 3.3333em;
+    font-size: 10.8px;
+    color: #454545;
+    font-family: Gotham1r,GothamMedium,Helvetica,Arial,sans-serif;
+}
+
+.scondSection li:first-of-type {
+    margin-top: 18px;
+
+}
+
+.scondSection ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    font-size: .75em;
+    text-transform: uppercase;
+    font-family: Gotham5r,GothamMedium,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    padding: 10px ;
+}
+
+
+.thirsSection{
+    margin-top: 60px;
+    font-size: 10px;
+}
+.thirsSection p{
+    font-size: .6875em;
+    color: #454545;
+    line-height: 1.4;
+}
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                /* background-color: red; */
+            }
+            .firstSectionOne i{
+                font-size: 16px;
+                margin :4px;
+            }
+            .firstSectionOne i:first-of-type{
+               word-wrap: break-word;
+               width: 40%;
+            
+            }
+            /* .firstSectionTwo{
+                display: flex;
+                width: 50%;
+                align-items: center;
+                align-content: center;
+                justify-content: space-between;
+                padding-left: 10px;
+                border-left: 1px solid #ccc;
+            
+            
+            } */
+            .firstSectionTwo p{
+            
+               width: 30%;
+               font-size: 12px;
+         
+            
+            
+            }
+            .firstSectionTwo span{
+          
+                font-size: 10px !important;
+          
+            
+            }
+            .firstSectionTwo i{
+                font-size: 20px !important;
+            }
+            .firstSectionTwo button{
+       
+                font-size: .4em;
+                
+            }
+            .firstSectionTwo img{
+                max-width: 25%;
+            }
+            .scondSection{
+                display: flex;
+                flex-wrap: wrap;
+                width: 70%;
+                justify-content: space-between;
+                align-items: center;
+                align-content: center;
+                margin: auto;
+                text-align: left;
+                padding: 20px;
+            
+            }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                /* background-color: yellow; */
+            }
+            .firstSectionOne i{
+                font-size: 16px;
+                margin :4px;
+            }
+            .firstSectionOne i:first-of-type{
+               word-wrap: break-word;
+               width: 40%;
+            
+            }
+            /* .firstSectionTwo{
+                display: flex;
+                width: 50%;
+                align-items: center;
+                align-content: center;
+                justify-content: space-between;
+                padding-left: 10px;
+                border-left: 1px solid #ccc;
+            
+            
+            } */
+            .firstSectionTwo p{
+            
+               width: 30%;
+               font-size: 12px;
+         
+            
+            
+            }
+            .firstSectionTwo span{
+          
+                font-size: 10px !important;
+          
+            
+            }
+            .firstSectionTwo i{
+                font-size: 20px !important;
+            }
+            .firstSectionTwo button{
+       
+                font-size: .4em;
+                
+            }
+            .firstSectionTwo img{
+                max-width: 25%;
+            }
+            .scondSection{
+                padding: 0px;
+            
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        /* @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                background-color: blue;
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops 
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                background-color: green;
+            }
+        }
+          
+        /* Media Query for Large screens 
+        @media (min-width: 1281px) {
+            body {
+                background-color: white;
+            }
+        } */

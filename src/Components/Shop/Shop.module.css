@@ -1,0 +1,80 @@
+.shop h1{
+    font-family: Zenith Medium,Palatino,Times,Serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+    margin: auto;
+}
+.sliders{
+    margin: auto;
+}
+.sliders .slider{
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+    height: 80px;
+    margin-left: 20px;
+    max-width: 17%;
+    height: 4.5em;
+    border: 2px solid #000;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    color: white;
+}
+
+.sliders .slider:hover{
+    background-color: white;
+    color: black !important;
+}
+
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                /* background-color: red; */
+            }
+            .sliders .slider h3{
+                font-size: calc(0.9rem); 
+           }
+           .sliders .slider{
+        
+            max-width: 40%;
+          
+        }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                /* background-color: yellow; */
+            }
+            .sliders .slider h3{
+                font-size: calc(0.9rem);            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                /* background-color: blue; */
+            }
+            .sliders .slider h3{
+                font-size: calc(1.2rem);            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                /* background-color: green; */
+            }
+            .sliders .slider h3{
+                font-size: calc(1rem + .6vw);            }
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            body {
+                /* background-color: white; */
+            }
+        }

@@ -1,0 +1,365 @@
+.productsDetails{
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.container{
+    background-color: white;
+}
+.container h1{
+    font-family: Gotham4r,Helvetica,Arial;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.5px;
+    color: #222;
+    padding-left: 4px;
+    display: inline-block;
+    max-height: 64px;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.container a{
+    text-decoration:underline;
+    color: black !important;
+}
+.productsDetails .imgs{
+    width: 20%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+.productsDetails .img{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.productsDetails.imgs img{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.productsDetails .desc{
+    width: 50%;
+    /* background-color: red; */
+}
+/* Price */
+
+.productsDetails .pric{
+    padding: 30px;
+    text-align: left;
+    margin-top: 0;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.pric h2{
+    color: #bd0f1b;
+    font-family: Gotham5r, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 16px;
+}
+.pric h3{
+    text-decoration: line-through;
+    font-stretch: normal;
+    font-family: Gotham5r, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 20px;
+    color: #666666;
+
+}
+.pric .ship{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid #eee;
+    position: relative;
+    padding-left: 20px;
+}
+.ship:after{
+    position: absolute;
+    content: "";
+    width: 1%;
+    height: 80%;
+    top: 10%;
+    left: 1%;
+    background-color: gray;
+}
+.pric .ship p:first-of-type{
+    text-transform: uppercase;
+    font-family: Gotham4r,Helvetica,Arial;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.pric .ship p:last-of-type{
+    font-family: Gotham5r,GothamBook,Helvetica,Arial,sans-serif;
+    float: left;
+    line-height: 1.2;
+}
+/* *********** */
+body {
+    background-color: #F8F9FA;
+}
+.prodcuts{
+    display: flex;
+    width: 100%;
+}
+.title{
+    font-family: Gotham5r;
+    font-size: 40px;
+    text-transform:uppercase;
+
+}
+.prodcuts .sid {
+    width: 15%;
+}
+.prodcuts .center {
+    width: 75%;
+}
+.prodcuts .sid ul,.prodcuts .sid ul li{
+    list-style-type: none !important;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-size: 11px;
+    font-family: Gotham4r, Helvetica, Arial;
+    color: #222222;
+    font-weight: bold;
+}
+.prodcuts .sid li{
+    position: relative;
+}
+.prodcuts .sid i{
+    position: absolute;
+    left: 90%;
+    color: #666666;
+}
+/* center */
+.center .fdiv{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.center img{
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    min-height: 240px;
+    max-height: 240px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.center h1{
+    color: #bd0f1b;
+    font-family: Gotham7r, Helvetica, Arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 17px;
+    margin-top: 16px;
+}
+.center h3{
+    text-decoration: line-through;
+    font-stretch: normal;
+    font-family: Gotham4r, Helvetica, Arial, sans-serif;
+    letter-spacing: normal;
+    font-size: 14px;
+    color: #666666;
+
+}
+.center h6 span{
+    font-size: 12px;
+    /* color: #666666; */
+    color: #bd0f1b;
+
+}
+.center h5{
+    color: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+.center h1 span{
+    font-size: 12px;
+}
+.center .firstE{
+  
+    margin: auto;
+}
+.colors span{
+    padding: 0px 10px; 
+    border-radius: 50%;
+    /* margin-left: 20px; */
+}
+.colors span:first-of-type{
+    background-color: #335263;
+}
+.colors span:last-of-type{
+    /* background-color: #000000; */
+    border: 1px solid #000000;    
+    padding: 1px 6px; 
+
+}
+.colors span:nth-of-type(2){
+    background-color:#e00f0f;
+}
+.colors span:nth-of-type(3){
+    background-color: rgb(10, 10, 39);
+}
+.colors span:nth-of-type(4){
+    background-color: rgb(157, 236, 9);
+}
+
+/* CSS */
+.prodcuts .button {
+  background-color: #bd0f1b;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 3px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 16px 48px;
+  }
+}
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                /* background-color: red; */
+            }
+            .sid{
+                display: none;
+            }
+            .productsDetails{
+                display: flex;
+                flex-wrap: wrap;
+                 }
+            .productsDetails .imgs{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .productsDetails .imgs img{
+                max-width: 25%;
+                max-height: 70px;
+                margin-left: 10px;
+
+            }
+            .productsDetails .desc img{
+                max-width: 100%;
+            }
+            .productsDetails .desc{
+                width: 100%;
+            }
+            .productsDetails .pric{
+                width: 100%;
+            }
+            .container .firstE{
+            }
+            .rev{
+                display: none !important;
+            }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 900px) {
+            body {
+                /* background-color: yellow; */
+            }
+            .fdiv{
+                width: 80%;
+            }
+            .fdiv img{
+                max-width: 100%;
+            }
+            .sid{
+                min-width: 30%;
+                /* background-color: red; */
+            }
+            .productsDetails{
+                display: flex;
+                flex-wrap: wrap;
+                 }
+            .productsDetails .imgs{
+                width: 40%;
+            }
+            .productsDetails .desc img{
+                max-width: 100%;
+            }
+            .productsDetails .desc{
+                width: 50%;
+            }
+            .productsDetails .pric{
+                width: 100%;
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 900px) and (max-width: 1024px){
+            body {
+                /* background-color: blue; */
+            }
+            .fdiv{
+                width: 30%;
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1140px){
+            body {
+                /* background-color: green; */
+            }
+            .fdiv{
+                width: 40%;
+            }
+        }
+          
+
+ 
